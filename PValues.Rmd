@@ -1,0 +1,30 @@
+---
+Title: PValues
+Author: Nima Niarad
+Date: 6/25/2021
+output: rmarkdown::github_document
+---
+
+*P-Values Concept* 
+
+Using Heart Disease UCI Data Set :https://www.kaggle.com/ronitf/heart-disease-uci  
+
+
+```{r, echo=FALSE, results='hide'}
+# P-Values Concept 
+
+# Using Heart Disease UCI Data Set :https://www.kaggle.com/ronitf/heart-disease-uci 
+
+library(readr)
+Heart <- read_csv("C:/Nima/Rstudio/Git/Data/Heart Disease UCI.csv")
+
+```
+
+*Regression*
+
+```{r}
+lm.fit.1 = lm(age ~ chol + trestbps + fbs, data = Heart)
+summary(lm.fit.1)
+```
+
+
