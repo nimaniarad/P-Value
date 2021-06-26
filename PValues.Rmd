@@ -5,11 +5,7 @@ date: "6/25/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r cars}
+```{r}
 # P-Values Concept 
 
 # Using Heart Disease UCI Data Set :https://www.kaggle.com/ronitf/heart-disease-uci 
@@ -31,4 +27,4 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
