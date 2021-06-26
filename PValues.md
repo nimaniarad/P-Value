@@ -1,5 +1,5 @@
 
-**P-Values Concept**
+**P-Value Concept**
 
 Using Heart Disease UCI Data Set
 :<https://www.kaggle.com/ronitf/heart-disease-uci>
@@ -25,11 +25,6 @@ Using Heart Disease UCI Data Set
 
 **Simple Regression**
 
-``` r
-lm.fit.1 = lm(age ~ chol + trestbps + fbs, data = Heart)
-summary(lm.fit.1)
-```
-
     ## 
     ## Call:
     ## lm(formula = age ~ chol + trestbps + fbs, data = Heart)
@@ -51,11 +46,6 @@ summary(lm.fit.1)
     ## Multiple R-squared:  0.1162, Adjusted R-squared:  0.1073 
     ## F-statistic: 13.11 on 3 and 299 DF,  p-value: 4.602e-08
 
-``` r
-par(mfrow = c(2,2))
-plot(lm.fit.1, pch = 20)
-```
-
 ![](PValues_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 Normal Q-Q above indicating that quantiles come from a Normal
@@ -67,25 +57,37 @@ are statistically significant, **but Come OOOOn, what it meeeeans?!**
 
 If you are like that, we are on the same page. I hate those conceptual
 things that bring nothing but more complexity to the issue. Personally,
-I love simple examples, kinda story ones that give us the real and
-simple concept behind the scene. So, let’s go for it with an example. I
-hope you find it useful.
+I love simple examples, kinda story ones that give us the simple concept
+behind the scene. So, let’s go for it with an example. I hope you find
+it useful.
 
-Imagine you have a friend named Jimmy that goes to a specific bar every
-Friday night and drink a lot. He brings a lot of friends with himself
-too. He goes other nights too, but you are not sure about it. The bar
-owner asks you to find out if Jimmy is playing a key role in increasing
-their profit on Friday nights much more than other busy nights there
-like Saturdays. When you collecting the data, you got a distribution of
-revenue based on the number of drinks. You find out because of Jimmy,
-they make much more money on Friday nights. The bar owner asks you he
-sometimes sees Jimmy on other nights too, would you tell me if Jimmy can
-play a key role on other nights too? You are going to say to the owner
-that no, just Friday nights and Jimmy roles are not significant on other
-nights. What are you saying is there is a slight chance that you can
-find Jimmy here at other nights, but he is here on Friday nights and
-making more money for you! So, Jimmy is playing a key role in the bar
-profit even if you consider other nights too. So, it is not by chance
-that Jimmy brings more money for the bar, however, we cannot find him on
-other nights. It means P-Values for Jimmy would be close to zero for
-other nights but he plays a key role in making more money for the bar.
+Imagine we have a friend named Jimmy. He goes to a specific bar with his
+friends every Friday night and they drink a lot! He goes to the bat
+other nights too, but occasionally.
+
+The bar owner asks us to find out if **Jimmy** is playing a **key role**
+in increasing their **profit**!
+
+When we analyzing the data, we make a distribution of revenue based on
+the number of drinks. We find out because of Jimmy, they make much more
+money on Friday nights. The bar owner tells us that he sometimes sees
+Jimmy on other nights too, so, would you tell me if having Jimmy on
+other nights is important or not?
+
+When we look at our analysis, we came to an understanding that **Jimmy’s
+roles are not that important on other nights**. We are gonna say "Sir,
+as there is a slight chance that you can find Jimmy here at other
+nights, but because of Friday nights, he is real a moneymaker!
+
+So, Jimmy is playing a key role in the bar’s profit even if you consider
+other nights too! It is not by chance that Jimmy brings more money for
+the bar, despite the fact that we cannot see him on other nights. It
+means **P-Value for Jimmy would be close to zero for Friday nights** and
+he plays a key role in making more money for the bar.
+
+We can make a Normal Distribution of Jimmy’s presence at the bar. Friday
+nights would be at the middle. When we do simple regression for Profit
+vs Jimmy on Friday nights, his P-value would be close to zero as it
+means this is not just a luck that he increases the bar’s profit.
+
+Is it a good example or what?!
