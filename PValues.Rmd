@@ -10,7 +10,7 @@ output: rmarkdown::github_document
 Using Heart Disease UCI Data Set :https://www.kaggle.com/ronitf/heart-disease-uci  
 
 
-```{r, echo=FALSE, results='hide'}
+```{r, echo=FALSE}
 # P-Values Concept 
 
 # Using Heart Disease UCI Data Set :https://www.kaggle.com/ronitf/heart-disease-uci 
