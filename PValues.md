@@ -52,8 +52,8 @@ summary(lm.fit.1)
     ## F-statistic: 13.11 on 3 and 299 DF,  p-value: 4.602e-08
 
 *chol* & *trestbps* have P-Values close to zero which means they are
-playing a key role in connection with age. Technically, it is said they
-are statistically significant.
+playing a key role in connection with age. Technically, it means they
+are statistically significant, but come on what it means?!
 
 **The question is what it means exactly?**
 
