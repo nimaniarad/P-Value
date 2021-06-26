@@ -25,10 +25,14 @@ Heart <- read_csv("C:/Nima/Rstudio/Git/Data/Heart Disease UCI.csv")
 ```{r}
 lm.fit.1 = lm(age ~ chol + trestbps + fbs, data = Heart)
 summary(lm.fit.1)
+
+par(mfrow = c(2,2))
+plot(lm.fit.1, pch = 20)
 ```
 
+Normal Q-Q above indicating that quantiles come from a Normal Distribution as our data are almost on a line.
 
-*chol* & *trestbps* have P-Values close to zero which means they are playing a key role in connection with age. Technically, it means they are statistically significant, **but Come OOOOn, what it means meeeeans?!** 
+*chol* & *trestbps* have P-Values close to zero which means they are playing a key role in connection with age. Technically, it means they are statistically significant, **but Come OOOOn, what it meeeeans?!** 
 
 If you are like that, we are on the same page. I hate those conceptual things that bring nothing but more complexity to the issue. Personally, I love simple examples, kinda story ones that give us the real and simple concept behind the scene. So, let's go for it with an example. I hope you find it useful. 
 

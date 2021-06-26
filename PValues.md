@@ -51,10 +51,19 @@ summary(lm.fit.1)
     ## Multiple R-squared:  0.1162, Adjusted R-squared:  0.1073 
     ## F-statistic: 13.11 on 3 and 299 DF,  p-value: 4.602e-08
 
+``` r
+par(mfrow = c(2,2))
+plot(lm.fit.1, pch = 20)
+```
+
+![](PValues_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+Normal Q-Q above indicating that quantiles come from a Normal
+Distribution as our data are almost on a line.
+
 *chol* & *trestbps* have P-Values close to zero which means they are
 playing a key role in connection with age. Technically, it means they
-are statistically significant, **but Come OOOOn, what it means
-meeeeans?!**
+are statistically significant, **but Come OOOOn, what it meeeeans?!**
 
 If you are like that, we are on the same page. I hate those conceptual
 things that bring nothing but more complexity to the issue. Personally,
