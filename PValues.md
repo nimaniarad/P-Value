@@ -59,7 +59,7 @@ meeeeans?!**
 If you are like that, we are on the same page. I hate those conceptual
 things that bring nothing but more complexity to the issue. Personally,
 I love simple examples, kinda story ones that give us the real and
-simple concept behind the scene. So, let’s go for it with my example. I
+simple concept behind the scene. So, let’s go for it with an example. I
 hope you find it useful.
 
 Imagine you have a friend named Jimmy that goes to a specific bar every
