@@ -1,4 +1,8 @@
 
+<style> body {text-align: justify} </style>
+
+<!-- Justify text. -->
+
 **P-Value Concept**
 
 Using Heart Disease UCI Data Set
@@ -62,13 +66,13 @@ behind the scene. So, let’s go for it with an example. I hope you find
 it useful.
 
 Imagine we have a friend named Jimmy. He goes to a specific bar with his
-friends every Friday night and they drink a lot! He goes to the bat
+friends every Friday night and they drink a lot! He goes to the bar
 other nights too, but occasionally.
 
 The bar owner asks us to find out if **Jimmy** is playing a **key role**
 in increasing their **profit**!
 
-When we analyzing the data, we make a distribution of revenue based on
+When we are analyzing data, we make a distribution of revenue based on
 the number of drinks. We find out because of Jimmy, they make much more
 money on Friday nights. The bar owner tells us that he sometimes sees
 Jimmy on other nights too, so, would you tell me if having Jimmy on
@@ -77,7 +81,7 @@ other nights is important or not?
 When we look at our analysis, we came to an understanding that **Jimmy’s
 roles are not that important on other nights**. We are gonna say "Sir,
 as there is a slight chance that you can find Jimmy here at other
-nights, but because of Friday nights, he is real a moneymaker!
+nights, but because of Friday nights, he is really a moneymaker!
 
 So, Jimmy is playing a key role in the bar’s profit even if you consider
 other nights too! It is not by chance that Jimmy brings more money for
@@ -86,8 +90,9 @@ means **P-Value for Jimmy would be close to zero for Friday nights** and
 he plays a key role in making more money for the bar.
 
 We can make a Normal Distribution of Jimmy’s presence at the bar. Friday
-nights would be at the middle. When we do simple regression for Profit
+nights would be in the middle. When we do simple regression for Profit
 vs Jimmy on Friday nights, his P-value would be close to zero as it
-means this is not just a luck that he increases the bar’s profit.
+means this is not just a piece of luck that he increases the bar’s
+profit.
 
 Is it a good example or what?!
