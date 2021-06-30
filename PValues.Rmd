@@ -43,7 +43,7 @@ The bar owner asks us to find out if **Jimmy** is playing a **key role** in incr
 
 When we are analyzing data, we make a distribution of revenue based on the number of drinks. We find out because of Jimmy, they make much more money on Friday nights. The bar owner tells us that he sometimes sees Jimmy on other nights too, so, would you tell me if having Jimmy on other nights is important or not?
 
-When we look at our analysis, we came to an understanding that **Jimmy’s roles are not that important on other nights**. We are gonna say "Sir, as there is a slight chance that you can find Jimmy here at other nights, but because of Friday nights, he is really a moneymaker!
+When we look at our analysis, we came to an understanding that **Jimmy’s roles are not that important on other nights**. We are gonna say "Sir, there is a **slight chance** that you can **find Jimmy here at other nights**, but because of Friday nights, he is a real moneymaker!
 
 So, Jimmy is playing a key role in the bar’s profit even if you consider other nights too! It is not by chance that Jimmy brings more money for the bar, despite the fact that we cannot see him on other nights. It means **P-Value for Jimmy would be close to zero for Friday nights** and he plays a key role in making more money for the bar.
 

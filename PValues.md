@@ -80,8 +80,8 @@ other nights is important or not?
 
 When we look at our analysis, we came to an understanding that **Jimmy’s
 roles are not that important on other nights**. We are gonna say "Sir,
-as there is a slight chance that you can find Jimmy here at other
-nights, but because of Friday nights, he is really a moneymaker!
+there is a **slight chance** that you can **find Jimmy here at other
+nights**, but because of Friday nights, he is a real moneymaker!
 
 So, Jimmy is playing a key role in the bar’s profit even if you consider
 other nights too! It is not by chance that Jimmy brings more money for
